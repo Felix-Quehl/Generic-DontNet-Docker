@@ -22,7 +22,7 @@ cd ./src
 docker build --tag=generic .
 ```
 
-The final image should clock in just about 100+ MB in size.
+The final image should clock in just about 100+ MB in size, but of course, depends in the end on your application size.
 
 ```bash
 REPOSITORY                         TAG       IMAGE ID       CREATED          SIZE
