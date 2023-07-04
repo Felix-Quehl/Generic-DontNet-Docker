@@ -3,6 +3,7 @@
 I have seen some people having trouble setting up their docker build systems, so I created a universal docker file to build and containerize dotnet applications generically.
 The docker files internal workings are independent of the actual source, and no changes should be required to build your app.
 This is achieved by not referring to any specific paths during the build and also overwriting the application name.
+If you need a different `C#` version, just change the package names.
 
 Just place this file into your `C#` project directory like so:
 
