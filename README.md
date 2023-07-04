@@ -21,3 +21,10 @@ Then you can containerize your application just run `docker` `build` while stand
 cd ./src
 docker build --tag=generic .
 ```
+
+The final image should clock in just about 100+ MB in size.
+
+```bash
+REPOSITORY                         TAG       IMAGE ID       CREATED          SIZE
+generic                            latest    b6b726b81cd7   20 minutes ago   118MB
+```
